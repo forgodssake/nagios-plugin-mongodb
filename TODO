@@ -1,0 +1,9 @@
+Make it aware of storage engine and don't fail on checks vs wrong storage engine
+Make it aware of mongo version and dont fail on check vs wrong mongo version
+remove rebundant code: make function to get info from mongo)
+remove rebundant code: use function to raise exceptions in case if warning/critical
+add specific checks for wiredtiger
+add option to decide what to do if check is run vs incorrect server (storage engine/mongo version/ not replicaset/ not sharding)
+allow script to be run without .py extension
+
+Check pull requests to avoid doing work!!!
